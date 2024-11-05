@@ -1,0 +1,11 @@
+body {
+    background-color: blanchedalmond;
+    padding: 50px; 
+    border: 5px  solid rgb(143, 96, 143);
+    border-radius: 12px;
+    width: 150px;  
+    height: 250px; 
+    align-content: center;
+    margin:auto;
+    margin-top: 50;
+}
