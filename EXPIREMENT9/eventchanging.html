@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <h1 id="txt">COMPUTER </h1>
+        <style>
+        /* Set fixed size for the images */
+        #img1 {
+            width: 300px;  /* Adjust to the desired width */
+            height: 350px; /* Adjust to the desired height */
+            transition: all 0.3s ease; /* Optional: smooth transition when changing images */
+        }
+    </style>
+        <img id="img1" onmouseover="myfunction()" onmouseout="myfunction2()" src="car.jpg"></img>
+        <script>
+            function myfunction()
+            {
+                document.getElementById("img1").src="car.jpg";
+                document.getElementById("txt").innerHTML="CAR";
+            }
+            function myfunction2()
+            {
+                document.getElementById("img1").src="bike.jpg";
+                document.getElementById("txt").innerHTML="BIKE";
+
+            }
+        </script>
+    </body>
+</html> 
