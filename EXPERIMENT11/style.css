@@ -1,0 +1,80 @@
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stacks elements vertically */
+    height: 100vh;
+    text-align: center; /* Centers text */
+}
+
+/* Form container */
+form {
+    background-color: #fff;
+    padding: 20px; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Increased form width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%; /* Ensures inputs fill the container */
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Buttons styling */
+input[type="submit"],
+input[type="reset"] {
+    width: 48%; /* Adjusted button width */
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Reset button styling */
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    margin-left: 4%;
+}
+
+/* Button hover effects */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Heading styling */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center; /* Ensures the heading is centered */
+    visibility: visible; /* Ensures it's not hidden */
+    display: block; /* Ensures it’s not collapsed */
+}
+
